@@ -1,3 +1,5 @@
+# bug-api-002: POST /products devuelve 201 Created con id 21, pero GET /products/21 devuelve el Body vacío 
+
 **Título:** POST https://fakestoreapi.com/products devuelve 201 Created con id 21, pero GET https://fakestoreapi.com/products/21 devuelve 200 OK con el Body vacío en lugar de los datos del producto creado
 
 **Entorno:** Postman, métodos POST y GET
